@@ -1,0 +1,164 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; 
+  padding-bottom: 0;
+}
+
+
+.header-logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 200px;
+}
+
+.header-search {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 10px;
+  width: 200px; 
+} 
+
+.header-btn { 
+  margin-right: 200px;
+}
+
+.header-left {
+  font-size: 20px;
+  margin: 0;
+  margin-right: 20px; 
+}  
+
+.home { 
+  margin-top: 100px;
+  position: fixed;
+  top: 0;
+  left: 100px;
+  right: 100px;  
+  color: red;
+} 
+
+.home-bottom { 
+  padding-bottom: 50px;
+}
+
+.actions-div { 
+  display: flex;  
+}  
+
+.sort { 
+  display: flex; 
+  font-size: 15px;   
+  padding-bottom: 50px;   
+  gap:10px; 
+}
+
+.post-list { 
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.post-box { 
+  background-color: #f2f2f2;
+  padding: 10px; 
+  margin-bottom: 20px; 
+  top: 0;
+  left: 0;
+  right: 0;  
+  color: black;
+} 
+
+.update-form { 
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.update-form-group { 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='url'],
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input[type='text']:focus,
+input[type='url']:focus,
+textarea:focus {
+  border-color: #333;
+}
+
+button[type='submit'] {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type='submit']:hover {
+  background-color: #222;
+}
+ 
+
+
+
+
+
+
+
