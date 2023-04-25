@@ -24,13 +24,23 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories: 
+Here's a walkthrough of implemented user stories: https://imgur.com/a/tV6L0WW.gif
 
-Create Form GIF: 
-Home feed displaying previously created posts and by default, the time created, title, and number of upvotes for each post in the feed, also sort by time created or upvotes count: 
-Clicking on a post shall direct the user to a new page for the selected post and a seperate post page for each created post, where additional information i sshown linked whenever user clicks a post: 
-Users can Upvote and leave comments (Does not display chat history real time) 
+Create Form GIF:   
+![ezgif com-video-to-gif (7)](https://user-images.githubusercontent.com/52749888/234168097-ed326f86-44e7-4fdb-8523-a8ec616c99c0.gif)
+
+Home feed displaying previously created posts and by default, the time created, title, and number of upvotes for each post in the feed, also sort by time created or upvotes count:  
+![ezgif com-video-to-gif (8)](https://user-images.githubusercontent.com/52749888/234168539-38a1fc03-7e65-4d83-8156-533e8f3ca73b.gif)
+
+Clicking on a post shall direct the user to a new page for the selected post and a seperate post page for each created post, where additional information i shown linked whenever user clicks a post: 
+![ezgif com-video-to-gif (10)](https://user-images.githubusercontent.com/52749888/234169785-0d20071c-e9ea-4e26-851a-5846062eb980.gif)
+
+Users can Upvote and leave comments (Does not display chat history real time): 
+![ezgif com-video-to-gif (9)](https://user-images.githubusercontent.com/52749888/234169539-2651e716-efde-443b-bde3-987af97c54c4.gif)
+
+
 A previously created post can be created or deleted: 
+![ezgif com-video-to-gif (11)](https://user-images.githubusercontent.com/52749888/234169861-4672d3e6-73f1-4f0b-909d-db181883d788.gif)
 
 
 
