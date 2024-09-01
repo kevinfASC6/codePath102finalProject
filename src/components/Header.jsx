@@ -1,7 +1,8 @@
 import React from 'react'; 
 import { Link, Outlet } from 'react-router-dom'
+import Home from './Home'
 
-const Header = () => {
+const Header = () => {  
   return ( 
     <div>
     <div className='header'>

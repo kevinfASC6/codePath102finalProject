@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import { supabase } from './client';
+import { supabase } from './client'; 
 
 const Home = () => {
   const [posts, setPosts] = useState([]);
-  const [sortOrder, setSortOrder] = useState('newest');
+  const [sortOrder, setSortOrder] = useState('newest'); 
 
   useEffect(() => {
     fetchPosts();
@@ -13,6 +13,7 @@ const Home = () => {
   async function fetchPosts() {
     const { data } = await supabase.from('posts').select();
     setPosts(data);
+    setFilteredPosts(data);
   }
 
   function getTimeDifference(postDate) {
@@ -32,7 +33,8 @@ const Home = () => {
     }
     setSortOrder(order);
     setPosts(sortedPosts);
-  }
+  } 
+  
 
   return (
     <div className='home'>
